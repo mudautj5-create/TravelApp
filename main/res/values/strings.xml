@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+
+    <!-- Main Activity -->
+    <string name="title_main">✈ Travel Packing Manager</string>
+    <string name="subtitle_main">Manage your packing list with ease</string>
+    <string name="btn_add_item">Add to Packing List</string>
+    <string name="btn_view_list">View Packing List</string>
+    <string name="btn_exit">Exit App</string>
+    <string name="item_count_label">Items in list: %d</string>
+
+    <!-- Screen Two -->
+    <string name="title_list">📋 Packing List</string>
+    <string name="btn_show_all">Show All Items</string>
+    <string name="btn_show_multiple">Qty ≥ 2 Only</string>
+    <string name="btn_back">← Back to Main Screen</string>
+    <string name="no_items">No items yet. Add some from the main screen.</string>
+    <string name="no_multiple_items">No items with quantity ≥ 2.</string>
+
+    <!-- Dialog Add Item -->
+    <string name="dialog_add_title">Add Packing Item</string>
+    <string name="hint_item_name">Item Name (e.g. Passport)</string>
+    <string name="hint_category">Category (e.g. Documents)</string>
+    <string name="hint_quantity">Quantity</string>
+    <string name="hint_comments">Comments (Optional)</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <!-- Item Card -->
+    <string name="item_category">Category: %s</string>
+    <string name="item_quantity">Qty: %d</string>
+    <string name="no_comments">No comments.</string>
+
+    <!-- Toasts / Messages -->
+    <string name="msg_fill_fields">Please fill in Name, Category and Quantity.</string>
+    <string name="msg_invalid_qty">Quantity must be a positive number.</string>
+    <string name="msg_added_format">\"%s\" added!</string>
+</resources>

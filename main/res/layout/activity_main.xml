@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_main"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_main"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_add_item"
+        android:textSize="16sp"
+        android:backgroundTint="#3949AB"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnViewList"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_view_list"
+        android:textSize="16sp"
+        android:backgroundTint="#00897B"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/btn_exit"
+        android:textSize="16sp"
+        android:backgroundTint="#E53935"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvItemCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/item_count_label"
+        android:textSize="14sp"
+        android:textColor="#444444"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
